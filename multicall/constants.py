@@ -9,6 +9,7 @@ class Network(IntEnum):
     xDai = 100
     Polygon_Mainnet = 137
     Polygon_Mumbai = 80001
+    BSC = 56
 
 
 MULTICALL_ADDRESSES = {
@@ -19,4 +20,5 @@ MULTICALL_ADDRESSES = {
     Network.xDai: '0xb5b692a88BDFc81ca69dcB1d924f59f0413A602a',
     Network.Polygon_Mainnet: '0x00214Df1c38d22Dcf43baA81b4c86AD2B9d6300F',
     Network.Polygon_Mumbai: '0xA3e7Af097dbB1AA1118744FF0C4c7CC4aC2f597F',
+    Network.BSC: '0x1Ee38d535d541c55C9dae27B12edf090C608E6Fb',
 }
